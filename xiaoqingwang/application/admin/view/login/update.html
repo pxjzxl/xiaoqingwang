@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div>aa</div>
+	<?php foreach($data as $vo): ?>
+		<div>用户名:<?php echo $vo['username']?></div>
+		<div><img src="<?php echo $vo['head']?>" alt=""></div>
+		<!-- <div>用户名:<?php echo $vo['username']?></div>
+		<div>用户名:<?php echo $vo['username']?></div> -->
+	<?php endforeach;?>
+</body>
+</html>
